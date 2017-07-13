@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ZeroPage } from '../zero/zero';
-import { OnePage } from '../one/one';
-import { TwoPage } from '../two/two';
-import { ThreePage } from '../three/three';
+import { DigitSoundDetailsPage } from '../digit-sound-details/digit-sound-details';
 
 /**
  * Generated class for the DigitSoundPage page.
@@ -19,44 +16,60 @@ import { ThreePage } from '../three/three';
 export class DigitSoundPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
   items = [
     {
       id: '0',
-      description: 'Z,S, soft-c'
+      associatedLetters: 'Z, S, soft-c',
+      mnemonics: 'Zero begins with z (and /z/). Upper case S and Z, as well as lower case s and z, have zero vertical strokes each, as with the numeral 0. The alveolar fricatives /s/ and /z/ form a voiceless and voiced pair.'
     },
-    { 
+    {
       id: '1',
-      description: 'D, T'
+      associatedLetters: 'D, T',
+      mnemonics: 'Upper case T and D, as well as lower case t and d have one vertical stroke each, as with the numeral 1. The alveolar stops /t/ and /d/ form a voiceless and voiced pair, as do the similar-sounding dental fricatives /θ/ and /ð/, though some variant systems may omit the latter pair.'
     },
-    { 
+    {
       id: '2',
-      description: 'N'
+      associatedLetters: 'N',
+      mnemonics: 'Upper case N and lower case n each have two vertical strokes and two points on the baseline.'
     },
-    { 
+    {
       id: '3',
-      description: 'M'
+      associatedLetters: 'M'
+    },
+    {
+      id: '4',
+      associatedLetters: 'R'
+    },
+    {
+      id: '5',
+      associatedLetters: 'L'
+    },
+    {
+      id: '6',
+      associatedLetters: 'J, SH, soft-G'
+    },
+    {
+      id: '7',
+      associatedLetters: 'K, Q, hard-c, hard-G'
+    },
+    {
+      id: '8',
+      associatedLetters: 'F, V'
+    },
+    {
+      id: '9',
+      associatedLetters: 'P, B'
     }
   ]
 
-itemSelected(item){
-  console.log(item);
-  if(item.id==='0'){
-    this.navCtrl.push(ZeroPage);
-  }else if (item.id==='1'){
-    this.navCtrl.push(OnePage);
-  }else if (item.id==='2'){
-    this.navCtrl.push(TwoPage);
-  }else if (item.id==='3'){
-    this.navCtrl.push(ThreePage);
+  itemSelected(item) {
+    console.log(item);
+    this.navCtrl.push(DigitSoundDetailsPage, item);
   }
- 
-}
-
-
   ionViewDidLoad() {
     console.log('ionViewDidLoad DigitSoundPage');
   }
-
 }

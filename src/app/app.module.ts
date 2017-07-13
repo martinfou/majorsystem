@@ -8,10 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { DigitSoundPage } from '../pages/digit-sound/digit-sound';
-import { ZeroPage } from '../pages/zero/zero';
-import { OnePage } from '../pages/one/one';
-import { TwoPage } from '../pages/two/two';
-import { ThreePage } from '../pages/three/three';
+import { DigitSoundDetailsPage } from '../pages/digit-sound-details/digit-sound-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,10 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     DigitSoundPage,
-    ZeroPage,
-    OnePage,
-    TwoPage,
-    ThreePage
+    DigitSoundDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -41,10 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     DigitSoundPage,
-    ZeroPage,
-    OnePage,
-    TwoPage,
-    ThreePage
+    DigitSoundDetailsPage
   ],
   providers: [
     StatusBar,
