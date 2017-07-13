@@ -37,31 +37,38 @@ export class DigitSoundPage {
     },
     {
       id: '3',
-      associatedLetters: 'M'
+      associatedLetters: 'M',
+      mnemonics: 'Lower case m has three vertical strokes. Both upper case M and lower case m each have three points on the baseline and look like the numeral 3 on its side.'
     },
     {
       id: '4',
-      associatedLetters: 'R'
+      associatedLetters: 'R',
+      mnemonics: '	Four ends with r (and /r/ in rhotic accents).'
     },
     {
       id: '5',
-      associatedLetters: 'L'
+      associatedLetters: 'L',
+      mnemonics: 'L is the Roman numeral for 50. Among the five digits of one\'s left hand, the thumb and index fingers also form an L.'
     },
     {
       id: '6',
-      associatedLetters: 'J, SH, soft-G'
+      associatedLetters: 'J, SH, soft-G',
+      mnemonics: 'Upper case G and lower case g look like the numeral 6 flipped horizontally and rotated 180° respectively. Lower case script j tends to have a lower loop, like the numeral 6. In some serif fonts, upper case CH, SH and ZH each have six serifs. The postalveolar affricates /tʃ/ and /dʒ/ form a voiceless and voiced pair, as do the similar-sounding postalveolar fricatives /ʃ/ and /ʒ/.'
     },
     {
       id: '7',
-      associatedLetters: 'K, Q, hard-c, hard-G'
+      associatedLetters: 'K, Q, hard-c, hard-G',
+      mnemonics: 'Both upper case K and lower case k look like two small 7s on their sides. In some fonts, the lower-right part of the upper case G looks like a 7. The velar stops /k/ and /g/ form a voiceless and voiced pair.'
     },
     {
       id: '8',
-      associatedLetters: 'F, V'
+      associatedLetters: 'F, V',
+      mnemonics: 'Lower case script f, which tends to have an upper and lower loop, looks like a figure-8. The labiodental fricatives /f/ and /v/ form a voiceless and voiced pair.'
     },
     {
       id: '9',
-      associatedLetters: 'P, B'
+      associatedLetters: 'P, B',
+      mnemonics: 'Upper case P and lower case p look like the numeral 9 flipped horizontally. Lower case b looks like the numeral 9 turned 180°. The labial stops /p/ and /b/ form a voiceless and voiced pair.'
     }
   ]
 
