@@ -10,6 +10,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { DigitSoundPage } from '../pages/digit-sound/digit-sound';
 import { ZeroPage } from '../pages/zero/zero';
 import { OnePage } from '../pages/one/one';
+import { TwoPage } from '../pages/two/two';
+import { ThreePage } from '../pages/three/three';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     DigitSoundPage,
     ZeroPage,
-    OnePage
+    OnePage,
+    TwoPage,
+    ThreePage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     DigitSoundPage,
     ZeroPage,
-    OnePage
+    OnePage,
+    TwoPage,
+    ThreePage
   ],
   providers: [
     StatusBar,
